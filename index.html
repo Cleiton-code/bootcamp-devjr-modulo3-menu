@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página menu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -11,57 +12,72 @@
             <img src="/assets/home.jpg" alt="varios pratos de comida">
         </div>
 
-        <p>Menu - Faça A Sua Escolha</p>
+        <p class="title">Menu - Faça A Sua Escolha</p>
 
         <div class="menu-pratos">
-            <p>Prato principal</p>
-            <p>Todos os pratos acompanha arroz, feijão e sobremesa do dia.</p>
+            <p class="titleprato">Prato principal</p>
+            <p class="subtitle">Todos os pratos acompanha arroz, feijão e sobremesa do dia.</p>
             <div class="image-pratos">
-                <img src="./assets/bife.jpg" alt="prato de bife" height="200px">
-                Bife com Batata
-            </div>
+                <div class="comida">
+                    <img src="./assets/bife.jpg" alt="prato de bife" height="200px">
+                    <p class="subtitleprato">Bife com Batatas</p>
+                     <p class="preco">R$ 30,00</p>
+                </div>
 
-            <div>
-                <img src="./assets/coxa.jpg" alt="prato coxa de frango" height="200px">
-                coxa de frango crocante
+                <div class="comida">
+                    <img src="./assets/coxa.jpg" alt="prato coxa de frango" height="200px">
+                    <p class="subtitleprato">Coxa de Ferango Crocante</p>
+                    <p class="preco">R$ 25,00</p>
 
-            </div>
+                </div>
 
-            <div>
-                <img src="./assets/panela.jpg" alt="carne de panela" height="200px">
-                carne de panela
+                <div class="comida">
+                    <img src="./assets/panela.jpg" alt="carne de panela" height="200px">
+                    <p class="subtitleprato">Carne de Panela</p>
+                    <p class="preco">R$ 22,00</p>
+                </div>
+
             </div>
             
 
         </div>
 
         <div class="menu-pratos">
-            <p>Acompanhamentos</p>
-            <p>Porções para uma pessoa</p>
+            <p class="titleprato">Acompanhamentos</p>
+            <p class="subtitle">Porções para uma pessoa</p>
             <div class="image-pratos">
-                <img src="./assets/farofa.jpg" alt="porção de farofa" height="200px">
-                Farofa
-            </div>
+                <div class="comida">
+                    <img src="./assets/farofa.jpg" alt="porção de farofa" height="200px">
+                    <p class="subtitleprato">Farofa</p>
+                    <p class="preco">R$ 10,00</p>
 
-            <div>
+                </div>
+            
+
+            <div class="comida">
                 <img src="./assets/salad.jpg" alt="porção de salada" height="200px">
-                Salada
+                <p class="subtitleprato">Salada</p>
+                <p class="preco">R$ 8,00</p>
 
             </div>
 
-            <div>
+            <div class="comida">
                 <img src="./assets/torresmo.jpg" alt="porção de torresmo" height="200px">
-                carne de panela
+                <p class="subtitleprato">Torresmo</p>
+                <p class="preco">R$ 12,00</p>
             </div>
 
+          </div>
         </div>
 
-        <div>
-            <p>Dados pessoais</p>
+        <div class="dados-pessoais">
+            <p class="titleprato">Dados pessoais</p>
             <input type="text" placeholder="Digite seu nome">
             <input type="number" placeholder="Digite seu telefone">
             <input type="text" placeholder="Digite seu email">
         </div>
+
+        <button class="botao">Calcular</button>
 
     </div>
     
