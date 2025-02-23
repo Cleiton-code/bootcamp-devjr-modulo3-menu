@@ -73,13 +73,20 @@
         <div class="dados-pessoais">
             <p class="titleprato">Dados pessoais</p>
             <input type="text" placeholder="Digite seu nome">
-            <input type="number" placeholder="Digite seu telefone">
+            <input type="text"  id="phone" placeholder="Digite seu telefone">
             <input type="text" placeholder="Digite seu email">
         </div>
 
         <button class="botao">Calcular</button>
 
     </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.mask.min.js" ></script>
+
+    <script>
+        $("#phone").mask ("(99) 9999-99999");
+    </script>
     
 </body>
 </html>
