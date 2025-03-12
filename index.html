@@ -22,12 +22,25 @@
                     <img src="./assets/bife.jpg" alt="prato de bife" height="200px">
                     <p class="subtitleprato">Bife com Batatas</p>
                      <p class="preco">R$ 30,00</p>
+                     <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                            class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
+                     
                 </div>
 
                 <div class="comida">
                     <img src="./assets/coxa.jpg" alt="prato coxa de frango" height="200px">
                     <p class="subtitleprato">Coxa de Ferango Crocante</p>
                     <p class="preco">R$ 25,00</p>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                            class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
 
                 </div>
 
@@ -35,6 +48,12 @@
                     <img src="./assets/panela.jpg" alt="carne de panela" height="200px">
                     <p class="subtitleprato">Carne de Panela</p>
                     <p class="preco">R$ 22,00</p>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                            class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
 
             </div>
@@ -51,6 +70,13 @@
                     <p class="subtitleprato">Farofa</p>
                     <p class="preco">R$ 10,00</p>
 
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                            class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
+
                 </div>
             
 
@@ -58,6 +84,12 @@
                 <img src="./assets/salad.jpg" alt="porção de salada" height="200px">
                 <p class="subtitleprato">Salada</p>
                 <p class="preco">R$ 8,00</p>
+                <div class="quantity buttons_added">
+                    <input type="button" value="-" class="minus">
+                    <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                        class="input-text qty text" size="4" pattern="" inputmode="">
+                    <input type="button" value="+" class="plus">
+                </div>
 
             </div>
 
@@ -65,6 +97,12 @@
                 <img src="./assets/torresmo.jpg" alt="porção de torresmo" height="200px">
                 <p class="subtitleprato">Torresmo</p>
                 <p class="preco">R$ 12,00</p>
+                <div class="quantity buttons_added">
+                    <input type="button" value="-" class="minus">
+                    <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                        class="input-text qty text" size="4" pattern="" inputmode="">
+                    <input type="button" value="+" class="plus">
+                </div>
             </div>
 
           </div>
@@ -83,6 +121,7 @@
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.mask.min.js" ></script>
+    <script src="js/quantity.js"></script>
 
     <script>
         $("#phone").mask ("(99) 9999-99999");
