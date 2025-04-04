@@ -37,7 +37,7 @@
                     <p class="preco">R$ 25,00</p>
                     <div class="quantity buttons_added">
                         <input type="button" value="-" class="minus">
-                        <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                        <input type="number" step="1" min="0" max="" id="2" name="quantity" value="0" title="Qty"
                             class="input-text qty text" size="4" pattern="" inputmode="">
                         <input type="button" value="+" class="plus">
                     </div>
@@ -50,7 +50,7 @@
                     <p class="preco">R$ 22,00</p>
                     <div class="quantity buttons_added">
                         <input type="button" value="-" class="minus">
-                        <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                        <input type="number" step="1" min="0" max="" id="3" name="quantity" value="0" title="Qty"
                             class="input-text qty text" size="4" pattern="" inputmode="">
                         <input type="button" value="+" class="plus">
                     </div>
@@ -72,7 +72,7 @@
 
                     <div class="quantity buttons_added">
                         <input type="button" value="-" class="minus">
-                        <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                        <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0" title="Qty"
                             class="input-text qty text" size="4" pattern="" inputmode="">
                         <input type="button" value="+" class="plus">
                     </div>
@@ -86,7 +86,7 @@
                 <p class="preco">R$ 8,00</p>
                 <div class="quantity buttons_added">
                     <input type="button" value="-" class="minus">
-                    <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                    <input type="number" step="1" min="0" max="" id="5" name="quantity" value="0" title="Qty"
                         class="input-text qty text" size="4" pattern="" inputmode="">
                     <input type="button" value="+" class="plus">
                 </div>
@@ -99,7 +99,7 @@
                 <p class="preco">R$ 12,00</p>
                 <div class="quantity buttons_added">
                     <input type="button" value="-" class="minus">
-                    <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                    <input type="number" step="1" min="0" max="" id="6" name="quantity" value="0" title="Qty"
                         class="input-text qty text" size="4" pattern="" inputmode="">
                     <input type="button" value="+" class="plus">
                 </div>
@@ -110,18 +110,20 @@
 
         <div class="dados-pessoais">
             <p class="titleprato">Dados pessoais</p>
-            <input type="text" placeholder="Digite seu nome">
+            <input id="namef" type="text" placeholder="Digite seu nome" >
             <input type="text"  id="phone" placeholder="Digite seu telefone">
             <input type="text" placeholder="Digite seu email">
         </div>
 
-        <button class="botao">Calcular</button>
+        <button onclick="calc()" class="botao">Calcular</button>
+        <div id="output"></div>
 
     </div>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.mask.min.js" ></script>
     <script src="js/quantity.js"></script>
+    <script src="js/javascript.js"></script>
 
     <script>
         $("#phone").mask ("(99) 9999-99999");

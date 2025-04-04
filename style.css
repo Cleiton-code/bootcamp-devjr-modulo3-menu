@@ -94,8 +94,18 @@ input{
     width: 850px;
     margin-top: 10px;
     height: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
+.output{
+    text-align: left;
+}
+
+#listasaida{
+    font-size: 15px;
+    height: 7px;
+}   
 
 /* -- quantity box -- */
 
