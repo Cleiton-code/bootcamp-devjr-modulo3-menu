@@ -26,7 +26,7 @@ function calc(){
 
 
     if(!nomef.trim()){
-        alert("Por favor prencha o nome!!!");
+        alert("POR FAVOR PREENCHA O NOME!!!");
         return;
     }
 
@@ -53,7 +53,7 @@ let totalItem = precoUnitario * quantidade
 
 }
 if(!contador) {
-    output.innerHTML = "<h3 style='color: red;'> Nenhum item foi selecionado</h3>"
+    output.innerHTML = "<h3 style='color: red;'>NENHUM ITEM FOI SELECIONADO</h3>"
 }else{
         output.innerHTML += `<div class="output" >  <h3><br><br>Preço final: ${formatter.format(total)}</h3></div>`
 }
